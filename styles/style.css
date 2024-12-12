@@ -31,6 +31,7 @@
   padding-left: 3px;
   padding-top: 3px;
 }
+
 .class-li-1 {
   list-style: none;
 }
@@ -83,6 +84,7 @@
   display: block;
   position: relative;
 }
+
 .overlay {
   background-color: rgb(0 0 0 / 0.6);
   position: absolute;
