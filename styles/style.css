@@ -15,7 +15,7 @@
   margin: auto 0;
 }
 
-.address-header {
+.address {
   justify-self: end;
   align-self: center;
   text-underline-position: under;
@@ -24,7 +24,7 @@
   line-height: 24px;
 }
 
-.header-ul {
+.list-header {
   display: flex;
   gap: 30px;
   list-style: circle;
@@ -32,11 +32,11 @@
   padding-top: 3px;
 }
 
-.class-li-1 {
+.class-list-header {
   list-style: none;
 }
 
-.class-li {
+.class-list {
   letter-spacing: 0.22px;
   text-decoration: underline;
 }
@@ -72,7 +72,7 @@
 }
 
 .cover {
-  height: 757px;
+  min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -125,10 +125,11 @@
   border: 1px solid white;
   text-transform: uppercase;
   background-color: transparent;
+  font-family: Raleway, sans-serif;
 }
 
 .lots {
-  padding: 180px 24px 150px 24px;
+  padding: 179px 24px 150px 24px;
 }
 
 .name-lots {
@@ -140,7 +141,7 @@
 
 .card-style {
   width: 334px;
-  height: 563px;
+  min-height: 563px;
 }
 
 .card-href {
@@ -158,14 +159,14 @@
   height: 100%;
   color: white;
   padding: 51px 40px 48px;
-}
-
-.card-1 {
-  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
+}
+
+.card-1 {
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card-title {
@@ -188,18 +189,10 @@
 
 .card-2 {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
 }
 
 .card-3 {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
 }
 
 .lots-card {
@@ -207,7 +200,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 30px;
 }
 
@@ -226,7 +219,7 @@
 
 .about-group {
   grid-column-start: 1;
-  padding: 32px 72px 7px 47px;
+  padding: 30px 72px 7px 47px;
 }
 
 .about-logo {
@@ -245,7 +238,7 @@
   grid-column-start: 2;
   align-self: center;
   text-transform: uppercase;
-  padding-top: 36px;
+  padding-top: 34px;
 }
 
 .text {
@@ -276,19 +269,19 @@
   font-size: 18px;
 }
 
-.footer-ul {
+.link-footer-menu {
   display: flex;
   flex-direction: column;
   align-items: center;
   list-style: none;
 }
 
-.footer-li {
+.link-footer-menu-list-item {
   letter-spacing: 0.22px;
   text-decoration: underline;
 }
 
-.footer-li-1 {
+.link-footer-menu-list {
   border-bottom: none;
 }
 
